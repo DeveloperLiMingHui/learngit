@@ -1,0 +1,1000 @@
+  127  sudo tee /etc/docker/daemon.json <<-'EOF'
+  128  {
+  129    "registry-mirrors": ["https://fxkees7l.mirror.aliyuncs.com"]
+  130  }
+  131  EOF
+  132  sudo systemctl daemon-reload sudo systemctl restart docker
+  133  sudo systemctl daemon-reload
+  134  sudo systemctl restart docker
+  135  docker
+  136  cleasr
+  137  clear
+  138  ls
+  139  cleawr
+  140  cleasr
+  141  clear
+  142  ls
+  143  clear
+  144  ls
+  145  pwd
+  146  ls
+  147  clear
+  148  hostnamectl 
+  149  sudo apt-get upgrade
+  150  clear
+  151  ls
+  152  cd /opt/
+  153  ls
+  154  cd ..
+  155  ls
+  156  cd /etc/
+  157  ls
+  158  clear
+  159  ls
+  160  clear
+  161  ls
+  162  git
+  163  cleasr
+  164  git --version
+  165  clear
+  166  ls
+  167  cleasr
+  168  clear
+  169  ls
+  170  vim
+  171  ls
+  172  clear
+  173  ls
+  174  clear
+  175  ls
+  176  cd ..
+  177  ls
+  178  cleasr
+  179  clear
+  180  node
+  181  clear
+  182  ls
+  183  clearss
+  184  clear
+  185  ls
+  186  clear
+  187  ls
+  188  ipython
+  189  ls
+  190  cd tmp/
+  191  ls
+  192  cd ..
+  193  ls
+  194  clear
+  195  ls
+  196  tldr
+  197  sudo apt install tldr
+  198  tldr vim
+  199  tldr
+  200  tldr vim
+  201  clear
+  202  ls
+  203  tldr ls
+  204  sudo tldr ls
+  205  pwd
+  206  cd ~
+  207  ls
+  208  clear
+  209  ls
+  210  tldr
+  211  tldr ls
+  212  clear
+  213  ls
+  214  sudo apt update
+  215  clear
+  216  ls
+  217  fish
+  218  sudo apt install fish
+  219  clear
+  220  ls
+  221  nvim
+  222  ls
+  223  clear
+  224  ls
+  225  curl -sLf https://spacevim.org/cn/install.sh | bash
+  226  nvim
+  227  vim
+  228  ls
+  229  clear
+  230  ls
+  231  nvm
+  232  nvim
+  233  sudo apt-get install neovim
+  234  nvim
+  235  ls
+  236  cleasr
+  237  clear
+  238  ls
+  239  reboot now
+  240  sudo reboot now
+  241  sudo  su
+  242  ls
+  243  nvim
+  244  curl -sLf https://spacevim.org/cn/install.sh | bash
+  245  ls -ls
+  246  ls -a
+  247  sudo nvim 
+  248  ls
+  249  clear
+  250  ls
+  251  ls -la
+  252  vim ./S ls
+  253  ls
+  254  cleawr
+  255  clear
+  256  ls
+  257  pwd
+  258  ls -a
+  259  ls -la
+  260  curl -sLf https://spacevim.org/install.sh | bash -s -- -h
+  261  git
+  262  git --version
+  263  ls
+  264  sudo apt-get install git
+  265  sudo vim 
+  266  sudo nvim
+  267  ls
+  268  nvim ./.
+  269  ls
+  270  tldr ls
+  271  sudo ls
+  272  sudo tldr ls
+  273  clear
+  274  ls
+  275  sudo apt-get install tldr
+  276  fish
+  277  ls
+  278  clear
+  279  ls
+  280  pwd
+  281  ls
+  282  clear
+  283  ls
+  284  pwd
+  285  ls -la
+  286  ls
+  287  clear
+  288  ls
+  289  pwd
+  290  ls
+  291  pwd
+  292  ls -ls
+  293  ls -al
+  294  ls
+  295  clear
+  296  vim
+  297  ls
+  298  clear
+  299  ls
+  300  clear
+  301  ls
+  302  set -o vi
+  303  cler
+  304  ls
+  305  clear
+  306  ls
+  307  clear
+  308  ls
+  309  ifconfig
+  310  vim
+  311  clear
+  312  ls
+  313  clear
+  314  ls
+  315  cd WebStromProjects/
+  316  ls
+  317  clelar
+  318  clear
+  319  ls
+  320  vim Dockerfile 
+  321  ls
+  322  clear
+  323  ls
+  324  clear
+  325  ls
+  326  vim package.json 
+  327  ls
+  328  clear
+  329  ls
+  330  mv Dockerfile ../
+  331  ls
+  332  cd ..
+  333  ls
+  334  docker build -t runoob/centos:6.7 .
+  335  sudo docker build -t runoob/centos:6.7 .
+  336  clear
+  337  ls
+  338  hostnamectl 
+  339  ls
+  340  clear
+  341  ls
+  342  docker run ubuntu:15.10 /bin/echo "Hello world"
+  343  sudo docker run ubuntu:15.10 /bin/echo "Hello world"
+  344  docker ps
+  345  sudo docker ps
+  346  sudo docker images
+  347  sudo docker -i -t ubuntu:15.10 /bin/bash
+  348  set -o vi
+  349  sudo docker run -it ubuntu:15.10 /bin/bash
+  350  docker run -d ubuntu:15.10 /bin/sh -c "while true;do echo hello world;sleep 1;done"
+  351  sudo docker run -d ubuntu:15.10 /bin/sh -c "while true;do echo hello world;sleep 1;done"
+  352  sudo docker ps
+  353  docker logs 822fc1cfd55e
+  354  sudo docker logs 822fc1cfd55e
+  355  sudo docker quizzical_almeida
+  356  sudo docker stop 822fc1cfd55e
+  357  sudo docker ps
+  358  sudo docker
+  359  tldr docker
+  360  sudo tldr docker
+  361  rm -rf /root/.tldr
+  362  sudo rm -rf /root/.tldr
+  363  tldr docker
+  364  clear
+  365  ls
+  366  sudo docker stats --help
+  367  docker pull ubuntu
+  368  sudo docker pull ubuntu
+  369  sudo docker run -it ubuntu /bin/bash
+  370  docker ps -a
+  371  sudo docker ps -a
+  372  sudo docker start 04bf4204cf52
+  373  docker run -itd --name ubuntu-test ubuntu /bin/bash
+  374  sudo docker run -itd --name ubuntu-test ubuntu /bin/bash
+  375  docker ps
+  376  sudo docker ps
+  377  sudo docker stop 741dbf7ddd6b
+  378  sudo docker restart 741dbf7ddd6b
+  379  sudo docker ps
+  380  sudo docker stop 741dbf7ddd6b
+  381  sudo docker attach 741dbf7ddd6b
+  382  sudo docker restart 741dbf7ddd6b
+  383  sudo docker attach 741dbf7ddd6b
+  384  sudo docker ps
+  385  sudo docker restart 741dbf7ddd6b
+  386  sudo docker exec -it 741dbf7ddd6b /bin/bash
+  387  sudo docker ps
+  388  ls
+  389  ls -a
+  390  mkdir dockertest
+  391  ls
+  392  sudo docker export 741dbf7ddd6b >ubuntu.tar
+  393  ls
+  394  mv ubuntu.tar ./dockertest/
+  395  ls
+  396  sudo cat dockertest/ubuntu.tar | docker import - test/ubuntu:v1
+  397  sudo cat dockertest/ubuntu.tar | docker import - ubuntu:v1
+  398  sudo cat dockertest/ubuntu.tar | docker import -ubuntu:v1
+  399  sudo cat dockertest/ubuntu.tar | docker import ubuntu:v1
+  400  sudo cat dockertest/ubuntu.tar | docker import - test/ubuntu:v1
+  401  cat dockertest/ubuntu.tar | docker import - test/ubuntu:v1
+  402  sudo cat dockertest/ubuntu.tar | docker import - test/ubuntu:v1
+  403  clear
+  404  ls
+  405  sudo docker import http://example.com/exampleimage.tgz example/imagerepo
+  406  sudo docker ps
+  407  sudo docker ps -a
+  408  sudo docker rm -f baad952ff396
+  409  sudo docker rm -f 822fc1cfd55e
+  410  sudo docker ps
+  411  sudo docker ps -a
+  412  sudo rm -f 8a23b21b9029
+  413  ls
+  414  clesar
+  415  clear
+  416  ls
+  417  sudo docker pull training/webapp #载入镜像
+  418  sudo docker run -d -P training/webapp python app.py
+  419  sudo docker ps
+  420  ifconfig
+  421  ifconfig -ens33
+  422  ifconfig
+  423  clear
+  424  sudo docker ps
+  425  sudo docker -d -p 5000:5000 training/webapp python app.py
+  426  sudo docker run -d -p 5000:5000 training/webapp python app.py
+  427  sudo docker ps
+  428  docker port f8141ee10c6b
+  429  sudo docker port f8141ee10c6b
+  430  sudo docker logs -f f8141ee10c6b
+  431  sudo docker top f8141ee10c6b
+  432  sudo docker inspect f8141ee10c6b
+  433  sudo docker stop f8141ee10c6b
+  434  sudo docker rertart f8141ee10c6b
+  435  sudo docker restart f8141ee10c6b
+  436  sudo docker ps -l
+  437  sudo docker rm f8141ee10c6b
+  438  sudo docker stop f8141ee10c6b\
+  439  sudo docker stop f8141ee10c6b
+  440  sudo docker rm f8141ee10c6b
+  441  sudo docker ps
+  442  sudo docker stop 76c701074cb3
+  443  sudo docker images
+  444  clear
+  445  sudo docker images
+  446  sudo docker run -it ubuntu:15.10 /bin/bash
+  447  ls
+  448  sudo docker pull ubuntu:20.04
+  449  sduo docker images
+  450  sudo docker images
+  451  sudo docker search httpd
+  452  sudo docker pull httpd
+  453  sudo docker rmi hello-world
+  454  sudo docker ps
+  455  sudo docker images 
+  456  sudo docker run -t -i ubuntu:20.04 /bin/bash
+  457  sudo docker commit -m "has update" -a="has update" 4508088844dc runoob/ubuntu:v2 
+  458  sudo docker ps
+  459  sudo docker images
+  460  ls
+  461  cleasr
+  462  clear
+  463  sudo docker ps
+  464  sudo docker stop 741dbf7ddd6b
+  465  sudo docker stop 04bf4204cf52
+  466  pwd
+  467  vim Dockfile
+  468  ls
+  469  clear
+  470  ls
+  471  ifconfig
+  472  ls
+  473  pwd
+  474  ls
+  475  mkdir WebStromProjects
+  476  ls
+  477  cd WebStromProjects/
+  478  ls
+  479  pwd
+  480  curl
+  481  cd ..
+  482  curl
+  483  sudo apt install curl
+  484  ls
+  485  cleare
+  486  ls
+  487  clear
+  488  ls
+  489  vim ~/.SpaceVim.d/init.toml
+  490  ls
+  491  curl -sLf https://spacevim.org/cn/install.sh | bash
+  492  nvim
+  493  vim
+  494  ls
+  495  clear
+  496  ls
+  497  nvim
+  498  ls
+  499  nvim
+  500  cd ~/.SpaceVim/bundle/vimproc.vim
+  501  mkdir lib
+  502  make
+  503  nvim
+  504  vim
+  505  ls
+  506  clear
+  507  ls
+  508  cd ~
+  509  ls
+  510  clear
+  511  ls
+  512  vim
+  513  neovim
+  514  nvim
+  515  ls
+  516  clear
+  517  ls
+  518  set -o vi
+  519  clear
+  520  ls
+  521  ls
+  522  cleasrs
+  523  clear
+  524  ls
+  525  clear
+  526  ls
+  527  uname -a
+  528  clear
+  529  ls
+  530  uname -a
+  531  ls
+  532  clear
+  533  tldr
+  534  tldr ls
+  535  tldr
+  536  sudo remove tldr
+  537  sudo apt uninstall tldr
+  538  clear
+  539  ls
+  540  sudo apt-get --purge remove tldr 
+  541  clear
+  542  ls
+  543  git
+  544  clear
+  545  ls
+  546  git --version
+  547  clear
+  548  ls
+  549  nvim
+  550  ls
+  551  clear
+  552  ls
+  553  clear
+  554  nvim
+  555  ls
+  556  clfeasr
+  557  clear
+  558  tldr
+  559  tldr ls
+  560  vim /etc/profile 
+  561  ls
+  562  cleasr
+  563  clear
+  564  ls
+  565  sudo vim /etc/profile
+  566  ls
+  567  source /etc/profile
+  568  ls
+  569  clear
+  570  ls 
+  571  clear
+  572  ls
+  573  sudo apt-get --purge remove
+  574  sudo apt-get --purge remove tldr
+  575  tldr
+  576  sudo apt-get autoremove
+  577  sudo apt-get autoclean
+  578  sudo apt-get clean
+  579  apt-get purge / apt-get --purge remove
+  580  sudo apt-get purge / apt-get --purge remove
+  581  clelar
+  582  clear
+  583  ls
+  584  fish
+  585  ls
+  586  pip3 install --user flake8
+  587  pip3 install --user isort
+  588  pip3 install --user yapf
+  589  clear
+  590  ls
+  591  vim ~/.SpaceVim.d/init.toml 
+  592  ls
+  593  clear
+  594  ls
+  595  vim
+  596  ls
+  597  clear
+  598  ls
+  599  nvim /etc/profile
+  600  ls
+  601  cleara
+  602  ls
+  603  sudo docker images
+  604  sudo docker tag 064d0092ee6c runoob/centos:dev
+  605  ls
+  606  clear
+  607  ls
+  608  sudo docker images
+  609  sudo docker run -d -P training/webapp python app.py
+  610  sudo docker ps
+  611  sudo docker run -d -P 5000:5000 training/webapp python app.py
+  612  sudo docker run -d -p 5000:5000 training/webapp python app.py
+  613  sudo docker ps
+  614  sudo docker run -d -p 127.0.0.1:5001:5000 training/webapp python app.py
+  615  sudo docker ps
+  616  sudo docker run -d -p 127.0.0.1:5000:5000/udp training/webapp python app.py
+  617  sudo docker port heuristic_einstein 5000
+  618  # 容器互联
+  619  sudo docker run -d -P --name runoob training/webapp python app.py
+  620  sudo docker ps -l
+  621  #新建网络
+  622  sudo docker network create -d bridge test-net
+  623  sudo docker ps
+  624  #链接容器
+  625  sudo docker run -itd --name test1 --network test-net ubuntu /bin/bash
+  626  sudo docker run -itd --name test2 --network test-net ubuntu /bin/bash
+  627  sudo docker exec -it test1 /bin/bash
+  628  sudo docker exec -it test2 /bin/bash
+  629  sudo docker ps
+  630  ls
+  631  clear
+  632  sudo docker ps
+  633  ls
+  634  cd PycharmProjects/
+  635  ls
+  636  rm -rf ./*
+  637  ls
+  638  cd ..
+  639  sudo docker exec -it 75e9eec9a362 /bin/bash
+  640  ls
+  641  clear
+  642  ls
+  643  exit
+  644  set -O vi
+  645  clear
+  646  ls
+  647  clear
+  648  ls
+  649  vim
+  650  ls
+  651  clear
+  652  ls
+  653  vim /etc/profile
+  654  set -O vi
+  655  set -o vi
+  656  cleasr
+  657  clear
+  658  ls
+  659  clear
+  660  ls
+  661  vim
+  662  ls
+  663  vim Dockerfile 
+  664  ls
+  665  clear
+  666  ls
+  667  clear
+  668  ls
+  669  cd WebStromProjects/
+  670  ls
+  671  vim package.json 
+  672  ls
+  673  cd ...
+  674  cd ..
+  675  ls
+  676  pwd
+  677  clear
+  678  ls
+  679  docker
+  680  docker search ubuntu
+  681  sudo docker search ubuntu
+  682  sudo docker search jdk
+  683  sudo docker pull nginx
+  684  sudo docker images
+  685  sudo docker run --name-test -p 8080 -d nginx
+  686  sudo docker run --name-test -p 8080:80 -d nginx
+  687  sudo docker run --name test -p 8080:80 -d nginx
+  688  ifconfig
+  689  docker search node
+  690  sudo docker search node
+  691  sudo docker pull node
+  692  sudo docker run -itd --name node-test node
+  693  sudo docker ps
+  694  sudo docker run exec d9e85b4001bf8 /bin/bash
+  695  sudo docker run 9e85b4001bf8 /bin/bash
+  696  sudo docker run node /bin/bash
+  697  sudo docker ps
+  698  sudo docker exec -it 9e85b4001bf8 /bin/bash
+  699  sudo docker images
+  700  sudo docker ps
+  701  sudo docker stop 7ba921ed7edc
+  702  sudo docker stop d1d6c70822f7 
+  703  sudo docker ps
+  704  sudo docker stop 6a3d761e1fc9
+  705  sudo docker stop e020e271fca9 
+  706  sudo docker stop dc9dfb51f26d
+  707  cleasre
+  708  clear
+  709  ls
+  710  sudo docker ps
+  711  sudo docker stop 8df000b0f36c
+  712  sudo docker stop 5dff3509fff5
+  713  clear
+  714  ls
+  715  sudo docker ps
+  716  sudo docker stop cb030533de5a
+  717  ls
+  718  clesar
+  719  cleasr
+  720  clear
+  721  sudo docker ps
+  722  clesar
+  723  cleasre
+  724  clear
+  725  ls
+  726  sudo docker ps
+  727  sudo docker exec 9e85b4001bf8
+  728  sudo docker exec 9e85b4001bf8 /bin/bash
+  729  sudo docker exec -it 9e85b4001bf8 /bin/bash
+  730  ls
+  731  sudo dcoker ps
+  732  sudo docker ps
+  733  sudo docker images
+  734  sudo docker rmi runoob/centos
+  735  sudo docker images
+  736  sudo docker rmi centos
+  737  sudo docker rmi ubuntu:20.04 
+  738  sudo docker rmi centos:6.7
+  739  sudo docker rmi training/webapp:latest
+  740  sudo docker rmi training/webapp
+  741  sudo docker ps
+  742  sudo docker images 
+  743  sudo docker rmi dev
+  744  sudo docker rmi runoob
+  745  sudo docker rmi ubuntu:15.10
+  746  sudo docker rmi-f ubuntu:15.10
+  747  sudo su
+  748  sudo docker rmi httpd
+  749  sudo docker rmi -f httpd
+  750  ls
+  751  sudo docker images
+  752  sudo docker exec ubuntu /bin/bash
+  753  sudo docker exec it  ubuntu /bin/bash
+  754  sudo docker ps
+  755  sudo docker run -it ubuntu /bin/bash
+  756  ls
+  757  cleasr
+  758  clear
+  759  docker ps
+  760  sudo docker ps
+  761  sudo docker images
+  762  sudo docker pull mysql
+  763  sudo docker images
+  764  docker run -itd --name mysql-test -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root mysql
+  765  sudo docker run -itd --name mysql-test -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root mysql
+  766  sudo docker ps
+  767  mysql
+  768  mysqlclient
+  769  clear
+  770  ls
+  771  sudo apt install  mysql-client
+  772  mysql
+  773  mysql -h localhost -uroot -p
+  774  mysql -h localhost -uroot -proot
+  775  clear
+  776  mysql -h localhost -uroot -proot
+  777  sudo docker ps
+  778  mysql -h localhost -uroot -proot
+  779  mysql -h localhost -uroot -p
+  780  mysql -uroot -h 127.0.0.1 -p
+  781  clear
+  782  ls
+  783  show databases;
+  784  sudo docker ps
+  785  sudo docker search tomcat
+  786  sudo docker pull tomcat
+  787  sudo docker ps
+  788  sudo docker images
+  789  sudo docker run --name tomcat -p 8080:8080 -v $PWD/test:/usr/local/tomcat/webapps/test -d tomcat
+  790  curl localhost:8080
+  791  ifconfig
+  792  sudo docker ps
+  793  curl 192.168.128:8080
+  794  url localhost:8080
+  795  curl localhost:8080
+  796  ifconfig
+  797  clear
+  798  ls
+  799  sudo docker pull python
+  800  sudo docker images
+  801  sudo docker ps
+  802  sudo docker -it python /bin/bash
+  803  sudo docker run -it python /bin/bash
+  804  sudo docker pull redis
+  805  sudo docker run -it redis /bin/bash
+  806  clear
+  807  ls
+  808  sudo docker images
+  809  sudo docker run -itd --name redis-test -p 6379:6379 redis
+  810  redis
+  811  docker exec -it redis-test /bin/bash
+  812  sudo docker exec -it redis-test /bin/bash
+  813  ls
+  814  sudo docker pull mongo
+  815  ls
+  816  sudo docker images
+  817  td --name mongo -p 27017:27017 mongo --authsudo docker images
+  818  docker run -itd --name mongo -p 27017:27017 mongo --auth
+  819  sudo docker run -itd --name mongo -p 27017:27017 mongo --auth
+  820  sudo docker ps
+  821  sudo docker exec 03cdf01d32fe /bin/bash
+  822  sudo docker exec 03cdf01d32fe
+  823  sudo docker exec -it  03cdf01d32fe
+  824  sudo docker exec -it  03cdf01d32fe /bin/bash
+  825  ls
+  826  clear
+  827  ls
+  828  sudo docker ps
+  829  sudo docker images
+  830  sudo docker run -itd python /bin/bash
+  831  sudo docker ps
+  832  sudo docker exec -it 13cbb1dca4cd
+  833  sudo docker exec -it 13cbb1dca4cd /bin/bash
+  834  ls
+  835  sudo docker ps
+  836  sudo docker run -itd node /bin/bash
+  837  sudo docker ps
+  838  sudo docker exec -it d6e217b9581d
+  839  sudo docker exec -it d6e217b9581d /bin/bash
+  840  sudo docker ps
+  841  sudo docker images
+  842  ls
+  843  clear
+  844  ls
+  845  pwd
+  846  mkdir GolandProjects IdeaProjects PycharmProjects
+  847  ls
+  848  mkdir Bashll
+  849  ls
+  850  clear
+  851  ls
+  852  sudo docker ps
+  853  sudo dock ps -a
+  854  sudo docker ps -a
+  855  sudo docker rm $(sudo docker ps -a -q)
+  856  ls
+  857  sudo docker ps -a
+  858  sudo docker ps
+  859  clear
+  860  ls
+  861  sudo docker ps
+  862  sudo docker stop 13cbb1dca4cd
+  863  sudo docker stop d6e217b9581d
+  864  ls
+  865  clear
+  866  ls
+  867  sudo docker ps -a
+  868  sudo docker rm d6e217b9581d
+  869  sudo docker rm 13cbb1dca4cd 
+  870  sudo docker ps
+  871  sudo docker ps -a
+  872  shutdown  now
+  873  clear
+  874  ls
+  875  git --version
+  876  ls
+  877  mkdir learngit
+  878  ls
+  879  cd learngit/
+  880  ls
+  881  git config --global user.name "liminghui"
+  882  git config --global user.email 16638214761@163.com
+  883  vimdiff
+  884  vimdiff
+  885  git config --global merge.tool vimdiff
+  886  mysql -h 150.158.183.213 -uroot -p
+  887  ls
+  888  clear
+  889  ls
+  890  clear
+  891  ls
+  892  clear
+  893  ls
+  894  clear
+  895  ls
+  896  git config --list
+  897  vim ~/.gitconfig 
+  898  git config user.name 
+  899  git config user.email 
+  900  ls
+  901  cd learngit/
+  902  ls
+  903  ls -la
+  904  ls -a
+  905  ls
+  906  git init
+  907  ls -a
+  908  ls
+  909  touch a.txt b.txt c.txt
+  910  ls
+  911  git add *.txt
+  912  touch README.md
+  913  git add README.md 
+  914  git commit -m'初始化项目版本'
+  915  git config --list
+  916  git config -e
+  917  git config
+  918  git config --list
+  919  git log
+  920  git branch testing
+  921  git branch
+  922  ls
+  923  echo 'www.baidu.com'>test.txt
+  924  git add .
+  925  git commit -m'add test.txt'
+  926  ls
+  927  git checkout testing 
+  928  ls
+  929  git checkout master 
+  930  ls
+  931  git checkout -b dev 
+  932  git branch
+  933  git checkout master 
+  934  git branch 
+  935  git checkout -b newtest
+  936  ls
+  937  git rm test.txt 
+  938  ls
+  939  git add .
+  940  touch runoob.php
+  941  git add .
+  942  git commit -m'remove test.txt,add runob.php'
+  943  ls
+  944  git checkout master 
+  945  ls
+  946  git branch 
+  947  git branch -d testing 
+  948  git branch
+  949  #合并分支
+  950  git branch 
+  951  ls
+  952  git merge newtest 
+  953  ls
+  954  git branch 
+  955  git branch -d newtest 
+  956  git branch
+  957  #合并冲突
+  958  nvim
+  959  vim ~/.SpaceVim.d/init.toml 
+  960  nvim ./
+  961  ls
+  962  clear
+  963  ls
+  964  pwd
+  965  ls
+  966  cd learngit/
+  967  ls
+  968  git branch 
+  969  ls
+  970  cat runoob.php 
+  971  git branch -b change_site
+  972  git checkout -b change_site
+  973  ls
+  974  vim runoob.php 
+  975  head -n runoob.php 
+  976  head -3 runoob.php 
+  977  git commit -am'changed the runoob.php'
+  978  ls
+  979  git checkout master 
+  980  git branch 
+  981  ls
+  982  cat -3 runoob.php 
+  983  cat runoob.php 
+  984  vim runoob.php 
+  985  git diff
+  986  git commit -am'修改代码'
+  987  git merge
+  988  git merge change_site 
+  989  cat runoob.php 
+  990  ls
+  991  vim runoob.php 
+  992  git status  -s
+  993  git add runoob.php 
+  994  git status -s
+  995  git commit 
+  996  git commit -m'处理冲突'
+  997  git commit -am'处理冲突'
+  998  gitlog
+  999  git log
+ 1000  git log --oneline
+ 1001  git log --graph
+ 1002  clear
+ 1003  git log --graph
+ 1004  git log --reverse --oneline
+ 1005  git log --author=liminghui
+ 1006  git blame runoob.php
+ 1007  ls
+ 1008  git blame a.txt
+ 1009  git blame README.md
+ 1010  git blame runoob.php
+ 1011  git tag -a v1.0
+ 1012  git tag -a v1.0 
+ 1013  git config --global core.editor "vim"
+ 1014  git tag -a v1.0 
+ 1015  git tag -a v1.0 
+ 1016  git tag -a v1.0 
+ 1017  git log --decorate
+ 1018  git log
+ 1019  clear
+ 1020  git log
+ 1021  git log --graph 
+ 1022  git tag -a -v0.1 9c2fdc5e9734481b90b48319fc791687bbfa383a
+ 1023  git tag -a -v0.1 9c2fdc
+ 1024  clear
+ 1025  ls
+ 1026  git log --graph 
+ 1027  git tag -a v0.1  9c2fdc5e973
+ 1028  git log --graph 
+ 1029  git log -a v0.2 e003b6368049ea7db3c72f0ebba6b8825d650303
+ 1030  git log -a v0.2 e003b63680
+ 1031  git tag -a v0.2 e003b6368049ea7db3c72f0ebba6b8825d65030
+ 1032  git log --graph 
+ 1033  git log -a v0.3 4
+ 1034  git log -a v0.3 4d06cf009827
+ 1035  git log -a v0.3 4d06cf0098
+ 1036  git log -a v0.3  4d06cf0098
+ 1037  git tag -a v0.2 4d06cf00982753951e2939e2b895d788ba58764F20 
+ 1038  git tag -a v0.3 4d06cf00982753951e2939e2b895d788ba58764F20 
+ 1039  git tag -a v0.3 4d06cf00982753951e2
+ 1040  git log --graph 
+ 1041  git tag -a v0.4 4d06cf00982753951e2939e2b895d788ba587640
+ 1042  git log --graph 
+ 1043  git tag -a v0.4 4d06cf00982753951e2939e2b895d788ba587640
+ 1044  git log --graph 
+ 1045  git log -a v0.5 873b8b527803fb12c75f77a0f50d4d052a33d08d
+ 1046  git log -a v0.5  873b8b527803fb12c75f77a0f50d4d052a33d08d
+ 1047  git tag -a v0.5  873b8b527803fb12c75f77a0f50d4d052a33d08d
+ 1048  git log --graph 
+ 1049  git log --decorate
+ 1050  git log --graph 
+ 1051  git tag
+ 1052  exit
+ 1053  ls
+ 1054  cd learngit/
+ 1055  ls
+ 1056  clear
+ 1057  ls
+ 1058  git diff runoob.php
+ 1059  vimdiff runoob.php 
+ 1060  vim runoob.php 
+ 1061  git add .
+ 1062  git commit -m'vimdiff的测试'
+ 1063  git status
+ 1064  vimdiff runoob.php 
+ 1065  ls
+ 1066  git remote add gittest https://github.com/DeveloperLiMingHui/gittest.git
+ 1067  ssh-keygen -t rsa -C"16638214761@163.com"
+ 1068  vim ~/.ssh/id_rsa.pub 
+ 1069  cat ~/.ssh/id_rsa.pub 
+ 1070  ssh -T 16638214761@163.com
+ 1071  ssh -T git@github.com
+ 1072  git remote add orgin git@github.com:DeveloperLiMingHui/gittest.git
+ 1073  git push -u orgin master 
+ 1074  git status 
+ 1075  git add .
+ 1076  git commit -m'github提交测试'
+ 1077  git push
+ 1078  wget www.baidu.com
+ 1079  ls
+ 1080  git add .
+ 1081  git commit -m'第二次提交测试'
+ 1082  git push -u orgin master 
+ 1083  vimdiff 
+ 1084  wget www.sougou.com
+ 1085  ls
+ 1086  vim index.html
+ 1087  git add .
+ 1088  git commit -m'提交更新'
+ 1089  git push -u orgin master 
+ 1090  history 
+ 1091  git remote 
+ 1092  git remote -v
+ 1093  git fetch orgin 
+ 1094  git merge orgin/master 
+ 1095  ls
+ 1096  cat a.txt 
+ 1097  git remote -v
+ 1098  ls
+ 1099  cd ..
+ 1100  ls
+ 1101  rm -rf learngit/
+ 1102  ls
+ 1103  cd ~/.ssh/
+ 1104  ls
+ 1105  vim known_hosts 
+ 1106  vim id_rsa
+ 1107  vim id_rsa.pub 
+ 1108  ls
+ 1109  cd ..
+ 1110  ls
+ 1111  clear
+ 1112  ls
+ 1113  cd ~/.ssh/
+ 1114  ls
+ 1115  cd ..
+ 1116  mv ~/.ssh/ ~/sshbeifen
+ 1117  ls
+ 1118  ssh-keygen -t rsa -C"16638214761@163.com" #一路回车
+ 1119  cat ~/.ssh/id_rsa.pub #复制key
+ 1120  ssh -T git@github.com
+ 1121  ssh -T git@github.com
+ 1122  ls
+ 1123  mkdir learengit
+ 1124  cd learengit/
+ 1125  ls
+ 1126  history >history.txt
